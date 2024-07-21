@@ -1,0 +1,21 @@
+.services-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.services-heading {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.services-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.carddesign{
+  display: flex;
+  justify-content: center;
+  
+}

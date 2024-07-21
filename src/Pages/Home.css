@@ -1,0 +1,17 @@
+
+  .home-page {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-between;
+    
+  }
+  
+  .card-one {
+    flex: 1 1 calc(20% - 15px); /* Adjusts to 5 cards per row */
+    box-sizing: border-box; /* Ensures padding/margin are included in the width calculation */
+    margin-top: 15px;
+  margin-left: 15px;
+  }
+
+  

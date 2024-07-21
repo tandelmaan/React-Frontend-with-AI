@@ -1,0 +1,39 @@
+.Websiteimg-body {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url('../Assests/tech-image.jpg') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 60px;  /* Adjust the padding as needed */
+  padding-bottom: 100px; /* Adjust the padding as needed */
+  box-sizing: border-box; /* Ensure padding is included in height calculation */
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.home-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgba(0, 0, 0, 0.5);  */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.home-overlay h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.home-overlay p {
+  font-size: 1.5em;
+}

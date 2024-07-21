@@ -1,0 +1,16 @@
+.technology-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.technology-heading {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.technology-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
